@@ -17,6 +17,9 @@
 
 import './platform_react_native';
 
+// Optional CameraView helper for Expo 17+
+export { CameraTensorLoopExpo17 } from './expo-camera17';
+
 export {asyncStorageIO} from './async_storage_io';
 export {bundleResourceIO} from './bundle_resource_io';
 export {decodeJpeg} from './decode_image';
